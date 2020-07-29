@@ -24,6 +24,17 @@ go build -ldflags "-s -w"
 ./random-ranker get random --p1 1000 --count 5
 ```
 
+It will print out the following:
+
+```log
+2020/07/29 16:07:11 Setting ranking for 5 positions with P1 starting rank of 1000
+P_1 is:  1000
+P_2 is:  965
+P_3 is:  919
+P_4 is:  887
+P_5 is:  854
+```
+
 ### Contributing
 
 Fork, implement, add tests, pull request, get my everlasting thanks and a respectable place here :).
